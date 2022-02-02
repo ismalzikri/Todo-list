@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Introduce 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+this I learn to impelement Scss With BEM in this project and build with React + Typescript
 
 In the project directory, you can run:
 
