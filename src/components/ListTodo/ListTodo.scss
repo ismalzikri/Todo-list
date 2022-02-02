@@ -1,0 +1,32 @@
+@mixin responsive($breakpoint) {
+    @if ($breakpoint == medium) {
+        @media (max-width: 1280px) { @content }
+    }
+    @if ($breakpoint == small){
+        @media (max-width: 600px) { @content }
+    }
+}
+
+
+.container {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+        &__heading {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+}
+
+.done {
+    color: rgba(115, 238, 91, 0.727);   
+}
